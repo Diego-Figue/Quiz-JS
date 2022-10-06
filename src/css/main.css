@@ -57,6 +57,7 @@ body {
     width: 80%;
 }
 
+/* styles of input */
 .card__input {
     font-family: inherit;
     width: 100%;
@@ -79,6 +80,8 @@ body {
     cursor: text;
     top: 20px;
 }
+
+/* styles of label */
 
 .card__label {
     position: absolute;

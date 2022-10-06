@@ -1,6 +1,9 @@
 //Import nodes
 import { body } from '../nodes.js';
 
+//import of options cards
+import { viewStatic, viewDinamyc, viewInfo } from '../views.js'
+
 //Import of localStorage get
 import { LocalStorageResponses } from '../utils/localStorage.js';
 
