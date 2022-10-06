@@ -1,6 +1,8 @@
 //Import of schemas and classes
 import { PrintDOM } from './schema/PrintDom.js';
 
+import { startBtn } from './nodes.js';
+
 // Principal Function
 const loadInterface = () => {
     const pincel = new PrintDOM();
@@ -8,4 +10,5 @@ const loadInterface = () => {
 };
 
 // Add Event listeners
-window.addEventListener('load', loadInterface);
+startBtn.addEventListener('click', loadInterface);
+// window.addEventListener('load', loadInterface);
